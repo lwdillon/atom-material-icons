@@ -25,3 +25,9 @@ export function getFolderIconName(assoc = DEFAULT) {
 export function getFolderIcon(iconName) {
   return icons[`folder_${iconName}`];
 }
+
+export function getFolderIconFromName(name) {
+  const assoc = getFolderAssociation(name)
+  const iconName = getFolderIconName(assoc)
+  return getFolderIcon(iconName)
+}

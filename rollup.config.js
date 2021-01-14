@@ -1,24 +1,28 @@
-import resolve from '@rollup/plugin-node-resolve';
-import commonjs from '@rollup/plugin-commonjs';
-import {terser} from 'rollup-plugin-terser';
-import json from '@rollup/plugin-json';
-import svg from 'rollup-plugin-svg';
+import resolve from '@rollup/plugin-node-resolve'
+import commonjs from '@rollup/plugin-commonjs'
+import { terser } from 'rollup-plugin-terser'
+import json from '@rollup/plugin-json'
+import svg from 'rollup-plugin-svg'
 
-const production = !process.env.ROLLUP_WATCH;
+const production = !process.env.ROLLUP_WATCH
+
+const name = 'AtomMaterialIcons'
 
 export default {
-  input: 'src/main.js',
-  output: {
-    sourcemap: true,
-    format: 'iife',
-    name: 'app',
-    file: 'public/bundle.js'
-  },
+  input: 'src/index.js',
+  output: [
+    {
+      name,
+      format: 'umd',
+      file: 'lib/atom-material-icons.js',
+      exports: 'named'
+    }
+  ],
 
   plugins: [
     json(),
     svg(),
-    resolve({browser: true}),
+    resolve({ browser: true }),
     commonjs(),
 
     // If we're building for production (npm run build
@@ -28,4 +32,4 @@ export default {
   watch: {
     clearScreen: false
   }
-};
+}

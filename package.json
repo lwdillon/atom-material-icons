@@ -4,6 +4,7 @@
   "description": "Atom Material Icons for Github",
   "author": "Marvin Zhang",
   "license": "MIT",
+  "main": "lib/atom-material-icons.js",
   "dependencies": {
     "compression": "^1.7.1",
     "js-yaml": "^3.13.1",
@@ -22,10 +23,7 @@
     "prestart:dev": "gulp prepare",
     "start": "sirv public --single",
     "start:dev": "sirv public --single --dev",
-    "release": "gulp release",
-    "webext": "npx web-ext build --overwrite-dest",
-    "firefox": "npm run build && npm run webext",
-    "chrome": "npm run build && npm run release"
+    "release": "gulp release"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
@@ -60,7 +58,7 @@
     "underscore": "^1.10.2"
   },
   "optionalDependencies": {
-    "minimist": ">=1.2.3",
-    "lodash.template": ">=4.5.0"
+    "lodash.template": ">=4.5.0",
+    "minimist": ">=1.2.3"
   }
 }

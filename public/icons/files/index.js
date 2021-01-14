@@ -45,6 +45,8 @@
 
     export * as file_alex from './alex.svg';
 
+    export * as file_alexignore from './alexignore.svg';
+
     export * as file_alloy from './alloy.svg';
 
     export * as file_alpine from './alpine.svg';
@@ -207,6 +209,8 @@
 
     export * as file_bootstrap from './bootstrap.svg';
 
+    export * as file_boringignore from './boringignore.svg';
+
     export * as file_bower from './bower.svg';
 
     export * as file_brainfuck from './brainfuck.svg';
@@ -267,6 +271,8 @@
 
     export * as file_chai from './chai.svg';
 
+    export * as file_chameleon from './chameleon.svg';
+
     export * as file_chapel from './chapel.svg';
 
     export * as file_chartjs from './chartjs.svg';
@@ -296,6 +302,8 @@
     export * as file_click from './click.svg';
 
     export * as file_clips from './clips.svg';
+
+    export * as file_clipse from './clipse.svg';
 
     export * as file_clojure from './clojure.svg';
 
@@ -391,23 +399,67 @@
 
     export * as file_cython from './cython.svg';
 
+    export * as file_d3 from './d3.svg';
+
+    export * as file_darcs from './darcs.svg';
+
     export * as file_dart from './dart.svg';
 
+    export * as file_dashboard from './dashboard.svg';
+
+    export * as file_dataweave from './dataweave.svg';
+
     export * as file_db from './db.svg';
+
+    export * as file_dbase from './dbase.svg';
+
+    export * as file_debian from './debian.svg';
 
     export * as file_default from './default.svg';
 
     export * as file_delphi from './delphi.svg';
 
+    export * as file_deps from './deps.svg';
+
+    export * as file_devcontainer from './devcontainer.svg';
+
+    export * as file_devicetree from './devicetree.svg';
+
+    export * as file_dhall from './dhall.svg';
+
+    export * as file_dhall_dark from './dhall_dark.svg';
+
+    export * as file_dia from './dia.svg';
+
     export * as file_diff from './diff.svg';
 
     export * as file_diff_dark from './diff_dark.svg';
+
+    export * as file_digdag from './digdag.svg';
 
     export * as file_django from './django.svg';
 
     export * as file_dlang from './dlang.svg';
 
+    export * as file_dns from './dns.svg';
+
+    export * as file_docbook from './docbook.svg';
+
     export * as file_docker from './docker.svg';
+
+    export * as file_dockerignore from './dockerignore.svg';
+
+    export * as file_doclets from './doclets.svg';
+
+    export * as file_docpad from './docpad.svg';
+
+    export * as file_docz from './docz.svg';
+
+    export * as file_dogescript from './dogescript.svg';
+
+    export * as file_dojo from './dojo.svg';
+
+    export * as file_dosbox from './dosbox.svg';
 
     export * as file_dotjs from './dotjs.svg';
 
@@ -415,11 +467,25 @@
 
     export * as file_doxygen from './doxygen.svg';
 
+    export * as file_dragula from './dragula.svg';
+
+    export * as file_drone from './drone.svg';
+
     export * as file_drupal from './drupal.svg';
 
     export * as file_dts from './dts.svg';
 
+    export * as file_dyalog from './dyalog.svg';
+
     export * as file_dylib from './dylib.svg';
+
+    export * as file_eagle from './eagle.svg';
+
+    export * as file_easybuild from './easybuild.svg';
+
+    export * as file_ec from './ec.svg';
+
+    export * as file_ecere from './ecere.svg';
 
     export * as file_eclipse from './eclipse.svg';
 
@@ -429,21 +495,37 @@
 
     export * as file_ejs from './ejs.svg';
 
+    export * as file_electron from './electron.svg';
+
     export * as file_elm from './elm.svg';
 
     export * as file_emacs from './emacs.svg';
 
+    export * as file_email from './email.svg';
+
     export * as file_ember from './ember.svg';
+
+    export * as file_emberscript from './emberscript.svg';
+
+    export * as file_ensime from './ensime.svg';
+
+    export * as file_eq from './eq.svg';
 
     export * as file_erb from './erb.svg';
 
     export * as file_erlang from './erlang.svg';
 
+    export * as file_esdoc from './esdoc.svg';
+
     export * as file_eslint from './eslint.svg';
+
+    export * as file_eslintignore from './eslintignore.svg';
 
     export * as file_ex from './ex.svg';
 
     export * as file_excel from './excel.svg';
+
+    export * as file_extjs from './extjs.svg';
 
     export * as file_fabric from './fabric.svg';
 
@@ -499,6 +581,8 @@
 
     export * as file_fossa from './fossa.svg';
 
+    export * as file_fossaignore from './fossaignore.svg';
+
     export * as file_fountain from './fountain.svg';
 
     export * as file_franca from './franca.svg';
@@ -526,6 +610,8 @@
     export * as file_github from './github.svg';
 
     export * as file_github_dark from './github_dark.svg';
+
+    export * as file_gitignore from './gitignore.svg';
 
     export * as file_gitlab from './gitlab.svg';
 
@@ -569,7 +655,11 @@
 
     export * as file_helm from './helm.svg';
 
+    export * as file_helmignore from './helmignore.svg';
+
     export * as file_heroku from './heroku.svg';
+
+    export * as file_herokuignore from './herokuignore.svg';
 
     export * as file_hh from './hh.svg';
 
@@ -622,6 +712,8 @@
     export * as file_indesign from './indesign.svg';
 
     export * as file_index from './index.svg';
+
+    export * as file_infopath from './infopath.svg';
 
     export * as file_inform from './inform.svg';
 
@@ -737,15 +829,41 @@
 
     export * as file_kx from './kx.svg';
 
+    export * as file_labview from './labview.svg';
+
     export * as file_laravel from './laravel.svg';
+
+    export * as file_lasso from './lasso.svg';
+
+    export * as file_leaflet from './leaflet.svg';
+
+    export * as file_lean from './lean.svg';
+
+    export * as file_lefthook from './lefthook.svg';
+
+    export * as file_leiningen from './leiningen.svg';
+
+    export * as file_lektor from './lektor.svg';
 
     export * as file_lerna from './lerna.svg';
 
     export * as file_less from './less.svg';
 
+    export * as file_lex from './lex.svg';
+
+    export * as file_lfe from './lfe.svg';
+
     export * as file_lib from './lib.svg';
 
     export * as file_license from './license.svg';
+
+    export * as file_lightwave from './lightwave.svg';
+
+    export * as file_lilypond from './lilypond.svg';
+
+    export * as file_lime from './lime.svg';
+
+    export * as file_link from './link.svg';
 
     export * as file_lint_staged from './lint-staged.svg';
 
@@ -755,13 +873,23 @@
 
     export * as file_livescript from './livescript.svg';
 
+    export * as file_llvm from './llvm.svg';
+
     export * as file_lock from './lock.svg';
 
     export * as file_log from './log.svg';
 
+    export * as file_logtalk from './logtalk.svg';
+
+    export * as file_lolcode from './lolcode.svg';
+
+    export * as file_lookml from './lookml.svg';
+
     export * as file_lsl from './lsl.svg';
 
     export * as file_lua from './lua.svg';
+
+    export * as file_lync from './lync.svg';
 
     export * as file_m from './m.svg';
 
@@ -775,37 +903,99 @@
 
     export * as file_manpage from './manpage.svg';
 
+    export * as file_mapbox from './mapbox.svg';
+
     export * as file_markdown from './markdown.svg';
+
+    export * as file_markdownlint from './markdownlint.svg';
+
+    export * as file_markdownlintignore from './markdownlintignore.svg';
 
     export * as file_marko from './marko.svg';
 
     export * as file_markup from './markup.svg';
 
+    export * as file_materialize from './materialize.svg';
+
     export * as file_mathematica from './mathematica.svg';
+
+    export * as file_mathjax from './mathjax.svg';
 
     export * as file_matlab from './matlab.svg';
 
     export * as file_maven from './maven.svg';
 
+    export * as file_max from './max.svg';
+
     export * as file_maya from './maya.svg';
+
+    export * as file_maya2 from './maya2.svg';
 
     export * as file_mdx from './mdx.svg';
 
+    export * as file_mediawiki from './mediawiki.svg';
+
     export * as file_mercurial from './mercurial.svg';
+
+    export * as file_mercurialignore from './mercurialignore.svg';
+
+    export * as file_mercury from './mercury.svg';
 
     export * as file_merlin from './merlin.svg';
 
+    export * as file_meson from './meson.svg';
+
+    export * as file_metal from './metal.svg';
+
     export * as file_meteor from './meteor.svg';
+
+    export * as file_minecraft from './minecraft.svg';
+
+    export * as file_minizinc from './minizinc.svg';
 
     export * as file_mint from './mint.svg';
 
+    export * as file_mirah from './mirah.svg';
+
+    export * as file_mirc from './mirc.svg';
+
     export * as file_mjml from './mjml.svg';
+
+    export * as file_mkdocs from './mkdocs.svg';
 
     export * as file_mocha from './mocha.svg';
 
+    export * as file_modelica from './modelica.svg';
+
+    export * as file_modernizr from './modernizr.svg';
+
+    export * as file_modo from './modo.svg';
+
+    export * as file_modula2 from './modula2.svg';
+
+    export * as file_modula3 from './modula3.svg';
+
+    export * as file_moho from './moho.svg';
+
+    export * as file_moleculer from './moleculer.svg';
+
+    export * as file_moment from './moment.svg';
+
     export * as file_mongodb from './mongodb.svg';
 
+    export * as file_monkey from './monkey.svg';
+
+    export * as file_monotone from './monotone.svg';
+
     export * as file_moonscript from './moonscript.svg';
+
+    export * as file_mootools from './mootools.svg';
+
+    export * as file_mruby from './mruby.svg';
+
+    export * as file_msql from './msql.svg';
+
+    export * as file_mupad from './mupad.svg';
 
     export * as file_mustache from './mustache.svg';
 
@@ -821,6 +1011,10 @@
 
     export * as file_nginx from './nginx.svg';
 
+    export * as file_ngrx_effects from './ngrx-effects.svg';
+
+    export * as file_ngrx_entities from './ngrx-entities.svg';
+
     export * as file_nib from './nib.svg';
 
     export * as file_nim from './nim.svg';
@@ -832,6 +1026,8 @@
     export * as file_note from './note.svg';
 
     export * as file_now from './now.svg';
+
+    export * as file_nowignore from './nowignore.svg';
 
     export * as file_npm from './npm.svg';
 
@@ -853,31 +1049,75 @@
 
     export * as file_onenote from './onenote.svg';
 
+    export * as file_openapi from './openapi.svg';
+
     export * as file_openoffice from './openoffice.svg';
+
+    export * as file_oracle from './oracle.svg';
+
+    export * as file_outlook from './outlook.svg';
 
     export * as file_owl from './owl.svg';
 
     export * as file_p4 from './p4.svg';
 
+    export * as file_p4ignore from './p4ignore.svg';
+
+    export * as file_paket from './paket.svg';
+
+    export * as file_pan from './pan.svg';
+
+    export * as file_papyrus from './papyrus.svg';
+
+    export * as file_parrot from './parrot.svg';
+
     export * as file_pascal from './pascal.svg';
 
     export * as file_patch from './patch.svg';
 
+    export * as file_patreon from './patreon.svg';
+
+    export * as file_pawn from './pawn.svg';
+
+    export * as file_pcd from './pcd.svg';
+
     export * as file_pdf from './pdf.svg';
 
+    export * as file_pegjs from './pegjs.svg';
+
     export * as file_perl from './perl.svg';
+
+    export * as file_pgsql from './pgsql.svg';
 
     export * as file_phalcon from './phalcon.svg';
 
     export * as file_phalcon_dark from './phalcon_dark.svg';
 
+    export * as file_phoenix from './phoenix.svg';
+
     export * as file_php from './php.svg';
+
+    export * as file_php2 from './php2.svg';
 
     export * as file_phpunit from './phpunit.svg';
 
+    export * as file_phraseapp from './phraseapp.svg';
+
     export * as file_phtml from './phtml.svg';
 
+    export * as file_pickle from './pickle.svg';
+
+    export * as file_pico8 from './pico8.svg';
+
+    export * as file_picolisp from './picolisp.svg';
+
+    export * as file_pike from './pike.svg';
+
+    export * as file_pinescript from './pinescript.svg';
+
     export * as file_pipfile from './pipfile.svg';
+
+    export * as file_platformio from './platformio.svg';
 
     export * as file_play from './play.svg';
 
@@ -885,9 +1125,17 @@
 
     export * as file_plugin from './plugin.svg';
 
+    export * as file_pm2 from './pm2.svg';
+
     export * as file_pnpm from './pnpm.svg';
 
+    export * as file_pod from './pod.svg';
+
+    export * as file_pogoscript from './pogoscript.svg';
+
     export * as file_polymer from './polymer.svg';
+
+    export * as file_pony from './pony.svg';
 
     export * as file_postcss from './postcss.svg';
 
@@ -895,9 +1143,17 @@
 
     export * as file_postscript from './postscript.svg';
 
+    export * as file_povray from './povray.svg';
+
+    export * as file_powerbuilder from './powerbuilder.svg';
+
     export * as file_powerpoint from './powerpoint.svg';
 
     export * as file_powershell from './powershell.svg';
+
+    export * as file_ppc from './ppc.svg';
+
+    export * as file_precommit from './precommit.svg';
 
     export * as file_preferences from './preferences.svg';
 
@@ -905,25 +1161,53 @@
 
     export * as file_prettier from './prettier.svg';
 
+    export * as file_prettierignore from './prettierignore.svg';
+
     export * as file_prisma from './prisma.svg';
 
     export * as file_processing from './processing.svg';
 
+    export * as file_processing_dark from './processing_dark.svg';
+
     export * as file_procfile from './procfile.svg';
 
+    export * as file_project from './project.svg';
+
     export * as file_prolog from './prolog.svg';
+
+    export * as file_propeller from './propeller.svg';
+
+    export * as file_pros from './pros.svg';
+
+    export * as file_proselint from './proselint.svg';
+
+    export * as file_protobuf from './protobuf.svg';
 
     export * as file_protractor from './protractor.svg';
 
     export * as file_psd from './psd.svg';
 
+    export * as file_publisher from './publisher.svg';
+
     export * as file_pug from './pug.svg';
+
+    export * as file_pullapprove from './pullapprove.svg';
 
     export * as file_puppet from './puppet.svg';
 
+    export * as file_pure from './pure.svg';
+
+    export * as file_purebasic from './purebasic.svg';
+
     export * as file_purescript from './purescript.svg';
 
+    export * as file_pypi from './pypi.svg';
+
+    export * as file_pyret from './pyret.svg';
+
     export * as file_python from './python.svg';
+
+    export * as file_pyup from './pyup.svg';
 
     export * as file_qiskit from './qiskit.svg';
 
@@ -945,7 +1229,15 @@
 
     export * as file_raml from './raml.svg';
 
+    export * as file_raphael from './raphael.svg';
+
+    export * as file_rascal from './rascal.svg';
+
     export * as file_razor from './razor.svg';
+
+    export * as file_razzle from './razzle.svg';
+
+    export * as file_rdata from './rdata.svg';
 
     export * as file_rdoc from './rdoc.svg';
 
@@ -957,7 +1249,15 @@
 
     export * as file_reason from './reason.svg';
 
+    export * as file_reasonstudios from './reasonstudios.svg';
+
+    export * as file_rebol from './rebol.svg';
+
     export * as file_red from './red.svg';
+
+    export * as file_red2 from './red2.svg';
+
+    export * as file_redhat from './redhat.svg';
 
     export * as file_redis from './redis.svg';
 
@@ -977,23 +1277,53 @@
 
     export * as file_redux_dark from './redux_dark.svg';
 
+    export * as file_reek from './reek.svg';
+
+    export * as file_regex from './regex.svg';
+
+    export * as file_remark from './remark.svg';
+
+    export * as file_renovate from './renovate.svg';
+
+    export * as file_requirejs from './requirejs.svg';
+
     export * as file_restql from './restql.svg';
+
+    export * as file_rexx from './rexx.svg';
+
+    export * as file_rhino3d from './rhino3d.svg';
+
+    export * as file_riemann from './riemann.svg';
+
+    export * as file_ring from './ring.svg';
 
     export * as file_riot from './riot.svg';
 
+    export * as file_riot2 from './riot2.svg';
+
+    export * as file_rmd from './rmd.svg';
+
     export * as file_robot from './robot.svg';
+
+    export * as file_robot2 from './robot2.svg';
 
     export * as file_rollup from './rollup.svg';
 
     export * as file_rspec from './rspec.svg';
 
+    export * as file_rss from './rss.svg';
+
     export * as file_rst from './rst.svg';
+
+    export * as file_rstudio from './rstudio.svg';
 
     export * as file_rubocop from './rubocop.svg';
 
     export * as file_ruby from './ruby.svg';
 
     export * as file_rust from './rust.svg';
+
+    export * as file_rxjs from './rxjs.svg';
 
     export * as file_san from './san.svg';
 
@@ -1143,11 +1473,19 @@
 
     export * as file_typings from './typings.svg';
 
+    export * as file_uikit from './uikit.svg';
+
     export * as file_uml from './uml.svg';
+
+    export * as file_unibeautify from './unibeautify.svg';
 
     export * as file_unity from './unity.svg';
 
+    export * as file_uno from './uno.svg';
+
     export * as file_unreal from './unreal.svg';
+
+    export * as file_urweb from './urweb.svg';
 
     export * as file_v from './v.svg';
 
@@ -1186,6 +1524,8 @@
     export * as file_watchman from './watchman.svg';
 
     export * as file_wdl from './wdl.svg';
+
+    export * as file_web2py from './web2py.svg';
 
     export * as file_webassembly from './webassembly.svg';
 

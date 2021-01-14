@@ -26,3 +26,9 @@ export function getFileIconName(assoc = DEFAULT) {
 export function getFileIcon(iconName) {
   return icons[`file_${iconName}`];
 }
+
+export function getFileIconFromName(name) {
+  const assoc = getAssociation(name)
+  const iconName = getFileIconName(assoc)
+  return getFileIcon(iconName)
+}
